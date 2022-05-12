@@ -2,7 +2,7 @@
 
 Project due next Friday (May13th)
 Project: Morse Code Translator
-Create a webpage that allows users to input english and get a more code output, and input morse code and get an english output
+Create a webpage that allows users to input english and get a morse code output, and input morse code and get an english output
 
 ## MVP:
 - Must support the alphabet, spaces, numbers

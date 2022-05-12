@@ -1,11 +1,19 @@
-import { handleConversion } from "../js/processor";
+import { toMorse, fromMorse, handleConversion } from "../js/processor";
 
-describe("Testing Conversion Function", () => {
+describe("Testing eng > morse conversion", () => {
+
+})
+
+describe("Testing morse > eng conversion", () => {
+
+})
+
+describe("Testing Handler Function", () => {
 
     // Convert into morse
     // Convert from morse
     // Handle wrong type (NaN/Undef/[])
-    // 
+    // Support alphabet, spaces, numbers
 
     it("should convert characters into morse correctly", () => {
         const a = "The quick brown fox jumped over the lazy dog";

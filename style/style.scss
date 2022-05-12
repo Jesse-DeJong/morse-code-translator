@@ -20,10 +20,10 @@
     display: flex;
     justify-content: space-around;
     
-}
-#left {
-    @include contentBox;
-}
-#right {
-    @include contentBox;
+    &__left {
+        @include contentBox;
+    }
+    &__right {
+        @include contentBox;
+    }
 }

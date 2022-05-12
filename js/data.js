@@ -34,7 +34,8 @@ const lookupTable = {
     6: "-....",
     7: "--...",
     8: "---..",
-    9: "----."
+    9: "----.",
+    " ": " / "
 };
 
 export default lookupTable;
