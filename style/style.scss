@@ -1,0 +1,29 @@
+// HEADER
+.header {
+    display: flex;
+    justify-content: center;
+    
+    &__heading {
+        font-size: 32px;
+    }
+}
+
+@mixin contentBox {
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+    width: 500px;
+}
+
+// INPUT/OUTPUT
+.io {
+    display: flex;
+    justify-content: space-around;
+    
+}
+#left {
+    @include contentBox;
+}
+#right {
+    @include contentBox;
+}

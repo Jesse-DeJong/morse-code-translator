@@ -1,0 +1,1 @@
+import lookupTable from "./data";

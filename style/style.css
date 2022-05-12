@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__heading {
+  font-size: 32px;
+}
+
+.io {
+  display: flex;
+  justify-content: space-around;
+}
+
+#left {
+  border: 1px solid black;
+  border-radius: 25px;
+  height: 300px;
+  width: 500px;
+}
+
+#right {
+  border: 1px solid black;
+  border-radius: 25px;
+  height: 300px;
+  width: 500px;
+}
