@@ -16,6 +16,7 @@ describe("Testing Handler Function", () => {
     // Convert into morse
     // Convert from morse
     // Handle wrong type (NaN/Undef/[])
+    // Text includes 'undefined'
     // Support alphabet, spaces, numbers
 
     it("should convert characters into morse correctly", () => {
