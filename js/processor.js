@@ -1,8 +1,8 @@
-import lookupTable from "./data";
-import { left, right, leftMode, rightMode, leftText, rightText } from "./dom";
+import lookupTable from "./data.js";
+import { left, right, leftMode, rightMode  } from "./dom.js";
 
 const toMorse = (text) => {
-    return text.split("").map((char) => lookupTable[char]);
+    return text.split("").map((char) => `${lookupTable[char]} `).join("");
 };
 const fromMorse = (text) => {
     return text.split(" ").map((char) => Object.values(lookupTable)[char]);
@@ -10,14 +10,13 @@ const fromMorse = (text) => {
 
 const handleConversion = (e) => {
     e.preventDefault();
-    console.log(leftText)
 
     if(leftMode === "English") {
-        rightText.innerHTML = toMorse(leftText)
+        right.innerHTML = toMorse(left.value)
     }
 
     if(leftMode === "Morse") {
-        fromMorse(leftText)
+        right.innerHTML = fromMorse(left.value)
     }
 
 }

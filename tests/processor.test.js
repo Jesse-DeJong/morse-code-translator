@@ -1,4 +1,7 @@
 import { toMorse, fromMorse, handleConversion } from "../js/processor";
+import { lookupTable } from "../js/data";
+
+// beforeAll()
 
 describe("Testing eng > morse conversion", () => {
 
