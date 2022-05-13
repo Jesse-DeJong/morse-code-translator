@@ -1,4 +1,4 @@
-const lookupTable = {
+export const lookupTable = {
     a: ".-",
     b: "-...",
     c: "-.-.",
@@ -38,7 +38,7 @@ const lookupTable = {
     " ": " / "
 };
 
-const invertedLookupTable = {
+export const invertedLookupTable = {
     ".-": "a",
     "-...": "b",
     "-.-.": "c",
@@ -76,9 +76,4 @@ const invertedLookupTable = {
     "---..": "8",
     "----.": "9",
     "/": " "
-}
-
-export {
-    lookupTable,
-    invertedLookupTable
 }

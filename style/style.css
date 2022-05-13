@@ -1,14 +1,28 @@
+@font-face {
+  font-family: "Glass_TTY_VT220";
+  src: url("./Glass_TTY_VT220.woff2") format("woff2"), url("./Glass_TTY_VT220.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: Glass_TTY_VT220;
+  color: #41FF00;
+}
+
 .header {
   display: flex;
   justify-content: center;
 }
 .header__heading {
+  font-family: Glass_TTY_VT220;
   font-size: 32px;
 }
 
 .io {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .io__left {
   border: 1px solid black;

@@ -1,9 +1,27 @@
+@font-face {
+    font-family: 'Glass_TTY_VT220';
+    src: url('./Glass_TTY_VT220.woff2') format('woff2'),
+         url('./Glass_TTY_VT220.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$terminal: Glass_TTY_VT220;
+$p1phosphor: #41FF00;
+
+* {
+    font-family: $terminal;
+    color: $p1phosphor;
+    // background-color: black;
+}
+
 // HEADER
 .header {
     display: flex;
     justify-content: center;
     
     &__heading {
+        font-family: $terminal;
         font-size: 32px;
     }
 }
@@ -18,7 +36,9 @@
 // INPUT/OUTPUT
 .io {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     
     &__left {
         @include contentBox;
