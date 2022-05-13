@@ -5,7 +5,7 @@ A webpage that allows a user to input either `English` or `Morse Code` and conve
 
 ### How to install/run the project:
 This site is hosted at the following link:
-[https://jesse-dejong.github.io/morse-code-translator/]()
+https://jesse-dejong.github.io/morse-code-translator/
 
 ### Implementation:
 My main goal going into this project (outside core functionality) was for it to update live as the user typed their query. This dynamic rerendering usually prompts the use of a framework such as react however after some research a way for this to be achieved while implementing the project in Vanilla JS emerged. This is mainly desireable due to the scope of the project not benefiting from the feature-set of a framework which if used would have added bulk and complexity to the program. Utilising Vanilla JS for this project keeps it lightweight, easy to read and maintain while providing all the required tools for the envisioned implementation. Additionally this made intergrating testing far more straightforward and futureproofs the implementation against framework updates.
