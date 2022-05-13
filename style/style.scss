@@ -13,9 +13,10 @@ $p1phosphor: #41FF00;
 
 // Global
 * {
+    background-color: black;
     font-family: $terminal;
     color: $p1phosphor;
-    background-color: black;
+    font-size: 20px;
 }
 
 .body {
@@ -43,35 +44,38 @@ $p1phosphor: #41FF00;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
     
     &__input {
         display: flex;
         flex-direction: column;
         border: 1px solid white;
-        margin-top: 5px;
         height: 300px;
         width: 500px;
-        
+
+        &__heading {
+            font-family: $terminal;
+            margin: 0 0 5px 0;
+        }
+
         &__textarea {
             font-size: 20px;
             height: 100%;
             padding: 5px;
         }
     }
-    
-    &__mode {
-        &--english {
-            font-size: 20px;
-        }
-    }
-    
+
     &__output {
         border: 1px solid white;
         font-family: $terminal;
         font-size: 20px;
-        margin-top: 5px;
         height: 290px;
         width: 490px;
         padding: 5px;
+        
+        &__heading {
+            font-family: $terminal;
+            margin: 5px 0 5px 0;
+        }
     }
 }

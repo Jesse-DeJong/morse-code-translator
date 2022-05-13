@@ -5,9 +5,10 @@
   font-style: normal;
 }
 * {
+  background-color: black;
   font-family: Glass_TTY_VT220;
   color: #41FF00;
-  background-color: black;
+  font-size: 20px;
 }
 
 .body {
@@ -32,29 +33,33 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5%;
 }
 .io__input {
   display: flex;
   flex-direction: column;
   border: 1px solid white;
-  margin-top: 5px;
   height: 300px;
   width: 500px;
+}
+.io__input__heading {
+  font-family: Glass_TTY_VT220;
+  margin: 0 0 5px 0;
 }
 .io__input__textarea {
   font-size: 20px;
   height: 100%;
   padding: 5px;
 }
-.io__mode--english {
-  font-size: 20px;
-}
 .io__output {
   border: 1px solid white;
   font-family: Glass_TTY_VT220;
   font-size: 20px;
-  margin-top: 5px;
   height: 290px;
   width: 490px;
   padding: 5px;
+}
+.io__output__heading {
+  font-family: Glass_TTY_VT220;
+  margin: 5px 0 5px 0;
 }
