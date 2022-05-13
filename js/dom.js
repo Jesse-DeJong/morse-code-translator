@@ -1,4 +1,4 @@
 // DOM Targeting
-export const input = document.querySelector(".io__left__textarea");
-export const output = document.querySelector(".io__right__textarea");
-export const mode = document.querySelector(".io__left__option");
+export const input = document.querySelector(".io__input__textarea");
+export const output = document.querySelector(".io__output");
+export const mode = document.querySelector(".io__input__mode");

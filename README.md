@@ -28,6 +28,8 @@ Create a webpage that allows users to input english and get a morse code output,
 - section per topic (potentially), why you did it this way / drawbacks or benefits
 ### Future goals/extensions
 - how drawbacks could be resolved
+- if mode is changed remove old text
+- morse audio output for the morse code
 #### License
 badges? test coverage
 ##### Tests

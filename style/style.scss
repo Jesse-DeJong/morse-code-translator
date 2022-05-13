@@ -1,3 +1,4 @@
+// Import font files
 @font-face {
     font-family: 'Glass_TTY_VT220';
     src: url('./Glass_TTY_VT220.woff2') format('woff2'),
@@ -6,16 +7,26 @@
     font-style: normal;
 }
 
+// Variables
 $terminal: Glass_TTY_VT220;
 $p1phosphor: #41FF00;
 
+// Global
 * {
     font-family: $terminal;
     color: $p1phosphor;
-    // background-color: black;
+    background-color: black;
 }
 
-// HEADER
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+// Header
 .header {
     display: flex;
     justify-content: center;
@@ -26,24 +37,41 @@ $p1phosphor: #41FF00;
     }
 }
 
-@mixin contentBox {
-    border: 1px solid black;
-    border-radius: 25px;
-    height: 300px;
-    width: 500px;
-}
-
-// INPUT/OUTPUT
+// Input/Output
 .io {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     
-    &__left {
-        @include contentBox;
+    &__input {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        margin-top: 5px;
+        height: 300px;
+        width: 500px;
+        
+        &__textarea {
+            font-size: 20px;
+            height: 100%;
+            padding: 5px;
+        }
     }
-    &__right {
-        @include contentBox;
+    
+    &__mode {
+        &--english {
+            font-size: 20px;
+        }
+    }
+    
+    &__output {
+        border: 1px solid white;
+        font-family: $terminal;
+        font-size: 20px;
+        margin-top: 5px;
+        height: 290px;
+        width: 490px;
+        padding: 5px;
     }
 }

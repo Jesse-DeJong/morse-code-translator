@@ -11,27 +11,27 @@
 </head>
 
     <body>
-
-        <!-- HEADER-->
-        <section class="header">
-            <h1 class="header__heading">Morse Code Translator</h1>
-        </section>
-        <!--OPTIONS -->
-            <!--
-                To / From morse
-            -->
-        <section class="io">
-            <!-- INPUT -->
-            <section class="io__left">
-                <select class="io__left__option">
-                    <option class="io__left__option--english">English</option>
-                    <option class="io__left__option--morse">Morse</option>
-                </select>
-                <textarea class="io__left__textarea"></textarea>
+        <section class="body">
+            <!-- HEADER-->
+            <section class="header">
+                <h1 class="header__heading">Morse Code Translator</h1>
             </section>
-            <!-- OUTPUT -->
-            <section class="io__right">
-                <textarea class="io__right__textarea"></textarea>
+
+            <!-- I/O -->
+            <section class="io">
+
+                <section class="io__input">
+                    <!--OPTIONS -->
+                    <select class="io__input__mode">
+                        <option class="io__input__mode--english">English</option>
+                        <option class="io__input__mode--morse">Morse</option>
+                    </select>
+                    <!-- INPUT -->
+                    <textarea class="io__input__textarea" autofocus></textarea>
+                </section>
+                <!-- OUTPUT -->
+                <section class="io__output"></section>
+
             </section>
         </section>
 
