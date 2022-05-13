@@ -78,7 +78,6 @@ const invertedLookupTable = {
     "/": " "
 }
 
-
 export {
     lookupTable,
     invertedLookupTable

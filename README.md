@@ -20,3 +20,14 @@ Create a webpage that allows users to input english and get a morse code output,
 - Why you chose to implement it this way
 - What you would improve / focus on in the next iteration
 (edited)
+
+# Title
+## Description
+### How to install/run project
+### Whats your implementation
+- section per topic (potentially), why you did it this way / drawbacks or benefits
+### Future goals/extensions
+- how drawbacks could be resolved
+#### License
+badges? test coverage
+##### Tests

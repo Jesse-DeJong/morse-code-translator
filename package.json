@@ -1,0 +1,30 @@
+{
+  "name": "morse-code-translator",
+  "version": "1.0.0",
+  "description": "live translator to and from morse code",
+  "main": "index.js",
+  "directories": {
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesse-DeJong/morse-code-translator.git"
+  },
+  "author": "Jesse De Jong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jesse-DeJong/morse-code-translator/issues"
+  },
+  "homepage": "https://github.com/Jesse-DeJong/morse-code-translator#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0"
+  }
+}
